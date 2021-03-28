@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "trainone";
+    src: url("../police/TrainOne-Regular.ttf") format("truetype");
+}
+
+.carousel-item {
+    height: 70vh;
+    border-radius: 10px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: url("../img/pexels-vlada-karpovich-4450429.jpg")
+}
+
+.text h2 {
+    color: rgb(255, 255, 255);
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #212529, 2px 2px #212529 #212529, 3px 3px #212529;
+}
+
+.text h2 {
+    position: relative;
+    top: -3px;
+    left: -3px;
+    text-shadow: 1px 1px #212529, 2px 2px #212529, 3px 3px #212529, 4px 4px #212529, 5px 5px #212529, 6px 6px #212529;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand h3 {
+    font-family: "trainone";
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.navbar-nav a {
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.d-md-block h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.d-md-block p {
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+.container h1 {
+    color: rgba(36, 36, 36, 0.959);
+    text-decoration: underline;
+}
+
+.font-weight-light {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.3);
+}
+
+.card img :hover {
+    transform: scale(1.3);
+}
+
+.card-body h5 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.list-group-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-body a {
+    font-weight: bold;
+    color: lightslategray;
+}
+
+.card-body a:hover {
+    border: darkgray;
+}
+
+.col-4 h6 {
+    margin-top: 5px;
+    font-size: 20px;
+    float: right;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+}
+
+.card-img-top {
+    border-radius: 5px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.02);
+}
+
+.list-inline-item a {
+    font-size: 20px;
+    color: #222;
+}
+
+.copyright {
+    font-size: 15px;
+}

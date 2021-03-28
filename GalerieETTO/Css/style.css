@@ -1,0 +1,109 @@
+img:hover {
+    transform: scale(1.25);
+}
+
+#hovereffect:hover {
+    transform: scale(1.25);
+}
+
+nav {
+    background: #232a34;
+    overflow: auto;
+    display: inline;
+}
+
+#navBoten {
+    float: right;
+}
+
+#titreG {
+    font-size: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+#titre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    margin-right: 0;
+    margin-left: 200px;
+    margin-top: 0px;
+    float: right;
+}
+
+li {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+    border-bottom: 2.5px solid #f0f0f0;
+}
+
+#imgs {
+    width: 70%;
+}
+
+.red {
+    color: red !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+.list-unstyled a {
+    color: #627482;
+}
+
+.list-unstyled {
+    margin-right: 160px;
+}
+
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
